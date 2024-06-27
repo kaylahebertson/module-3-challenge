@@ -9,8 +9,7 @@ const collectEmployees = function () {
   while (userPrompt) {
       const firstName = prompt("Please enter employee's first name");
       const lastName = prompt("Please enter employee's last name");
-      const salaryInput = prompt("Please enter the salary of the employee");
-      const salary = parseFloat(salaryInput);
+      const salary = parseFloat(prompt("Please enter the salary of the employee"));
 
       const employee = {
       firstName: firstName,
